@@ -18,8 +18,7 @@ public class ModModelProvider extends FabricModelProvider {
 		blockModelGenerators.createTrivialCube(ModBlocks.YELLOW_WALLPAPER);
 		blockModelGenerators.createTrivialCube(ModBlocks.MOIST_CARPET);
 		blockModelGenerators.createTrivialCube(ModBlocks.CEILING_TILE);
-		blockModelGenerators.createTrivialCube(ModBlocks.FLUORESCENT_LIGHT);
-		blockModelGenerators.createTrivialCube(ModBlocks.FLUORESCENT_LIGHT_OFF);
+		// The fluorescent lights are thin panels, so their json lives in src/main/resources/assets.
 	}
 
 	@Override

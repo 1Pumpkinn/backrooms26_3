@@ -26,10 +26,12 @@ public class ModBlocks {
 	public static final Block CEILING_TILE = register(CEILING_TILE_ID, Block::new, indestructible(MapColor.SNOW, SoundType.STONE));
 
 	// Lights are two separate blocks (on / off) so the flicker and blackout events in a later batch
-	// only need to swap block states of the world, and every model can come from plain datagen.
-	public static final Block FLUORESCENT_LIGHT = register(FLUORESCENT_LIGHT_ID, Block::new,
+	// only need to swap block states of the world. Both are thin panels (see FluorescentLightBlock);
+	// their blockstate, model and item json are written by hand in src/main/resources because
+	// datagen only offers full cubes for them.
+	public static final Block FLUORESCENT_LIGHT = register(FLUORESCENT_LIGHT_ID, FluorescentLightBlock::new,
 			indestructible(MapColor.SNOW, SoundType.GLASS).lightLevel(state -> 15));
-	public static final Block FLUORESCENT_LIGHT_OFF = register(FLUORESCENT_LIGHT_OFF_ID, Block::new,
+	public static final Block FLUORESCENT_LIGHT_OFF = register(FLUORESCENT_LIGHT_OFF_ID, FluorescentLightBlock::new,
 			indestructible(MapColor.SNOW, SoundType.GLASS));
 
 	private static BlockBehaviour.Properties indestructible(MapColor color, SoundType sound) {
