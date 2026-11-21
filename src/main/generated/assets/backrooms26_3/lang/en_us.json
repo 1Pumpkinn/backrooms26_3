@@ -1,0 +1,11 @@
+{
+  "block.backrooms26_3.ceiling_tile": "Ceiling Tile",
+  "block.backrooms26_3.fluorescent_light": "Fluorescent Light",
+  "block.backrooms26_3.fluorescent_light_off": "Fluorescent Light (Off)",
+  "block.backrooms26_3.moist_carpet": "Moist Carpet",
+  "block.backrooms26_3.yellow_wallpaper": "Yellow Wallpaper",
+  "itemGroup.backrooms26_3.backrooms": "Backrooms",
+  "message.backrooms26_3.dimension_missing": "The Backrooms dimension is not loaded.",
+  "message.backrooms26_3.entered": "You noclipped out of reality.",
+  "message.backrooms26_3.left": "You found your way back."
+}

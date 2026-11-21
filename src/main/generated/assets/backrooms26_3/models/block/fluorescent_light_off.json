@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "backrooms26_3:block/fluorescent_light_off"
+  }
+}
