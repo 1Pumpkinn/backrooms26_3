@@ -1,8 +1,16 @@
 # Backrooms26.3
 
-## Setup
+A Fabric mod for Minecraft 26.3 that adds a Backrooms dimension, inspired by Escape the Backrooms.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+## Progress
+
+- Batch 1: blocks, datagen (models and language), creative tab, the `backrooms26_3:backrooms` dimension, `/backrooms enter` and `/backrooms leave`
+- Batch 2: jigsaw-generated rooms (templates are built by `tools/generate_templates.py`)
+- Batch 3 (planned): flickering lights and timed blackouts
+
+## Development
+
+Run `./gradlew runDatagen` to generate block models and language files, then `./gradlew runClient`.
 
 ## License
 

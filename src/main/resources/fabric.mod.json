@@ -3,13 +3,13 @@
 	"id": "backrooms26_3",
 	"version": "${version}",
 	"name": "Backrooms26.3",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A found-footage style Backrooms dimension with jigsaw-generated rooms and unreliable lights.",
 	"authors": [
-		"Me!"
+		"PumpkinDev"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/1Pumpkinn/backrooms26_3",
+		"sources": "https://github.com/1Pumpkinn/backrooms26_3"
 	},
 	"license": "All-Rights-Reserved",
 	"icon": "assets/backrooms26_3/icon.png",

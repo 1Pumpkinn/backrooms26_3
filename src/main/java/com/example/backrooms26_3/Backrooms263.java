@@ -1,5 +1,9 @@
 package com.example.backrooms26_3;
 
+import com.example.backrooms26_3.block.ModBlocks;
+import com.example.backrooms26_3.command.ModCommands;
+import com.example.backrooms26_3.item.ModItemGroups;
+
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
@@ -17,11 +21,11 @@ public class Backrooms263 implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
+		ModBlocks.init();
+		ModItemGroups.init();
+		ModCommands.init();
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("You are not supposed to be here.");
 	}
 
 	public static Identifier id(String path) {
