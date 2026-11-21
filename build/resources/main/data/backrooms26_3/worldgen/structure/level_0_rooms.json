@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:jigsaw",
+	"biomes": [
+		"backrooms26_3:level_0"
+	],
+	"max_distance_from_center": 128,
+	"size": 1,
+	"spawn_overrides": {},
+	"start_height": {
+		"absolute": 3
+	},
+	"start_pool": "backrooms26_3:level_0/start",
+	"step": "surface_structures",
+	"terrain_adaptation": "none",
+	"use_expansion_hack": false
+}

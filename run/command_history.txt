@@ -1,0 +1,37 @@
+/backrooms
+/backrooms enter
+/gamemode s[
+/gamemode spectator
+/gamemode creative
+/backrooms enter
+/give Player277 minecraft:jigsaw
+/give Player277 minecraft:structure_block
+/place jigsaw backrooms26_3:level_0/rooms
+/place jigsaw backrooms26_3:level_0/rooms 55 5 ~ ~ ~
+/place jigsaw backrooms26_3:level_0/rooms 5 5 ~ ~ ~
+/place jigsaw backrooms26_3:level_0/rooms 1 1 ~ ~ ~
+/place template backrooms26_3:level_0/room_n_e_alcove
+/place template backrooms26_3:level_0/room_n_s_open
+/backrooms enter
+/tp 9000 100 9000
+/kill Player805
+/gamemode survival
+/gamemode x
+/gamemode creative
+/backrooms enter
+/gamemode spectator
+/backrooms enter
+/gamemode spectator
+/gamemode creative
+/place structure backrooms26_3:level_0_rooms ~ 3 ~
+/tp ~ 3 ~
+/kill Player988
+/place structure backrooms26_3:level_0_rooms ~ 3 ~
+/tp ~ 3 ~
+/tp ~ 100 ~
+/place structure backrooms26_3:level_0_rooms ~ ~ ~
+/tp -37 100 9
+/gamemode spectator
+/gamemode creative
+/tp ~ 100 ~
+/backrooms enter

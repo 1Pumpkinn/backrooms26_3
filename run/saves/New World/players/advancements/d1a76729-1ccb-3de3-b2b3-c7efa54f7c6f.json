@@ -1,0 +1,16 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:lush_caves": "2026-11-21 21:10:37 +1100",
+      "minecraft:wooded_badlands": "2026-11-21 21:06:08 +1100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-11-21 21:06:07 +1100"
+    },
+    "done": true
+  },
+  "DataVersion": 5023
+}
