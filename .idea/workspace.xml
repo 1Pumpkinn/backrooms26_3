@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f66243fd-5519-4bbf-bed0-a74764c6a423" name="Changes" comment="Me, Me, Me, MEEEOOOOOWWWWWWWWWW MROIWOWOWOWOOWOW MEEEOWOWOOWW">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="f66243fd-5519-4bbf-bed0-a74764c6a423" name="Changes" comment="Fixed Big Rooms I think" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,22 +53,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "1Pumpkinn"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;1Pumpkinn&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/1Pumpkinn/backrooms26_3.git",
-    "accountId": "4e5e3895-6e08-4692-8385-3c59b643d975"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/1Pumpkinn/backrooms26_3.git&quot;,
+    &quot;accountId&quot;: &quot;4e5e3895-6e08-4692-8385-3c59b643d975&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7,
-  "fromUser": false
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3MPQLvfolE9OKr1e6LCXYZsfhH5" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -87,6 +83,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "V_FMT": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel"
@@ -142,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Me, Me, Me, MEEEOOOOOWWWWWWWWWW MROIWOWOWOWOOWOW MEEEOWOWOOWW" />
-    <option name="LAST_COMMIT_MESSAGE" value="Me, Me, Me, MEEEOOOOOWWWWWWWWWW MROIWOWOWOWOOWOW MEEEOWOWOOWW" />
+    <MESSAGE value="Fixed Big Rooms I think" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Big Rooms I think" />
   </component>
 </project>
