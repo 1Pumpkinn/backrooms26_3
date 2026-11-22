@@ -46,7 +46,7 @@ POOL_DIR = os.path.join(ROOT, "worldgen", "template_pool", "level_0")
 N = 17
 LAST = N - 1
 SIZE = (N, 5, N)
-WALL_HEIGHT = 4
+WALL_HEIGHT = ensurepip
 DOOR_HEIGHT = 3
 VARIANTS = 128
 
@@ -55,8 +55,8 @@ DOOR_SLOTS = [range(3, 6), range(11, 14)]
 DOOR_OPEN_CHANCE = 0.85
 
 MIN_ROOM = 3
-MAX_ROOM = 7
-SPLIT_AFTER_SMALL = 0.2
+MAX_ROOM = 5  # rooms wider than this are split whenever they can be, so big rooms stay rare
+SPLIT_AFTER_SMALL = 0.35
 GAP_WIDTH = 3  # shortened to 2 on walls shorter than 6 blocks
 GAP_LINTEL_CHANCE = 0.7
 
@@ -108,6 +108,12 @@ def build_layout(rng):
     lintels = set()
     rooms = []
 
+    def pick_split(lo, hi):
+        # Prefer a wall position that leaves both halves no bigger than MAX_ROOM, so big rooms stay rare.
+        options = list(range(lo + MIN_ROOM, hi - MIN_ROOM + 1))
+        good = [a for a in options if a - lo <= MAX_ROOM and hi - a <= MAX_ROOM]
+        return rng.choice(good or options)
+
     def divide(x0, x1, z0, z1):
         w = x1 - x0 + 1
         h = z1 - z0 + 1
@@ -124,7 +130,7 @@ def build_layout(rng):
         gap_lintel = rng.random() < GAP_LINTEL_CHANCE
         gap_w = GAP_WIDTH if (h if vertical else w) >= 6 else GAP_WIDTH - 1
         if vertical:
-            at = rng.randint(x0 + MIN_ROOM, x1 - MIN_ROOM)
+            at = pick_split(x0, x1)
             gap = rng.randint(z0, z1 - gap_w + 1)
             for z in range(z0, z1 + 1):
                 if gap <= z < gap + gap_w:
@@ -135,7 +141,7 @@ def build_layout(rng):
             divide(x0, at - 1, z0, z1)
             divide(at + 1, x1, z0, z1)
         else:
-            at = rng.randint(z0 + MIN_ROOM, z1 - MIN_ROOM)
+            at = pick_split(z0, z1)
             gap = rng.randint(x0, x1 - gap_w + 1)
             for x in range(x0, x1 + 1):
                 if gap <= x < gap + gap_w:

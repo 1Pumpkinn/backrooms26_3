@@ -35,3 +35,12 @@
 /gamemode creative
 /tp ~ 100 ~
 /backrooms enter
+/gamemode spectator
+/gamemode creative
+/gamemode spectator
+/gamemode creative
+/gamemode spectator
+/gamemode creative
+/gamemode survival
+/give Player93 minecraft:netherite_pickaxe
+/enchant Player93 minecraft:efficiency 5

@@ -5,23 +5,148 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f66243fd-5519-4bbf-bed0-a74764c6a423" name="Changes" comment="Fixed Big Rooms I think">
-      <change beforePath="$PROJECT_DIR$/.gradle/9.8.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.2/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/backrooms26_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/backrooms26_3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_00.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_00.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_01.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_01.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_02.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_02.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_03.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_03.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_04.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_04.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_05.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_05.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_06.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_06.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_07.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_07.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_08.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_08.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_09.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_09.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_10.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_10.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_100.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_100.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_101.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_101.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_102.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_102.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_103.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_103.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_104.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_104.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_105.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_105.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_106.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_106.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_107.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_107.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_108.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_108.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_109.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_109.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_11.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_11.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_110.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_110.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_111.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_111.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_112.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_112.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_113.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_113.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_114.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_114.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_115.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_115.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_116.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_116.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_117.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_117.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_118.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_118.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_119.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_119.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_12.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_12.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_120.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_120.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_121.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_121.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_122.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_122.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_123.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_123.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_124.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_124.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_125.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_125.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_126.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_126.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_127.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_127.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_13.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_13.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_14.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_14.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_15.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_15.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_16.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_16.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_17.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_17.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_18.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_18.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_19.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_19.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_20.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_20.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_21.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_21.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_22.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_22.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_23.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_23.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_24.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_24.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_25.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_25.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_26.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_26.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_27.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_27.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_28.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_28.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_29.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_29.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_30.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_30.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_31.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_31.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_32.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_32.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_33.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_33.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_34.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_34.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_35.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_35.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_36.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_36.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_37.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_37.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_38.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_38.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_39.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_39.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_40.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_40.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_41.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_41.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_42.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_42.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_43.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_43.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_44.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_44.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_45.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_45.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_46.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_46.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_47.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_47.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_48.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_48.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_49.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_49.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_50.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_50.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_51.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_51.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_52.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_52.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_53.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_53.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_54.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_54.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_55.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_55.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_56.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_56.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_57.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_57.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_58.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_58.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_59.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_59.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_60.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_60.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_61.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_61.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_62.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_62.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_63.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_63.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_64.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_64.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_65.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_65.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_66.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_66.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_67.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_67.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_68.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_68.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_69.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_69.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_70.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_70.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_71.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_71.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_72.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_72.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_73.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_73.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_74.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_74.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_75.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_75.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_76.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_76.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_77.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_77.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_78.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_78.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_79.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_79.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_80.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_80.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_81.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_81.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_82.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_82.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_83.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_83.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_84.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_84.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_85.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_85.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_86.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_86.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_87.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_87.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_88.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_88.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_89.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_89.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_90.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_90.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_91.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_91.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_92.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_92.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_93.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_93.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_94.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_94.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_95.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_95.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_96.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_96.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_97.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_97.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_98.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_98.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_99.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/backrooms26_3/structure/level_0/cell_99.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/command_history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/command_history.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/datagen/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/datagen/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/datagen/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/datagen/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/datagen/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/datagen/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/datagen/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/datagen/logs/debug-4.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/datagen/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/datagen/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/datagen/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/datagen/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-11-21-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-11-21-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-11-21-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-11-21-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-11-21-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-11-21-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-11-21-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-11-21-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-11-21-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-11-21-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-11-21-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-11-21-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2026-11-21-7.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -29,22 +154,148 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/data/minecraft/weather.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/data/minecraft/weather.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/data/minecraft/world_clocks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/data/minecraft/world_clocks.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/backrooms26_3/backrooms/data/minecraft/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/backrooms26_3/backrooms/data/minecraft/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/backrooms26_3/backrooms/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/backrooms26_3/backrooms/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/backrooms26_3/backrooms/region/r.-1.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/backrooms26_3/backrooms/region/r.-1.-2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/backrooms26_3/backrooms/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/backrooms26_3/backrooms/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/backrooms26_3/backrooms/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/backrooms26_3/backrooms/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/backrooms26_3/backrooms/region/r.0.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/backrooms26_3/backrooms/region/r.0.-2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/backrooms26_3/backrooms/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/backrooms26_3/backrooms/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/minecraft/overworld/data/minecraft/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/minecraft/overworld/data/minecraft/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/minecraft/the_end/data/minecraft/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/minecraft/the_end/data/minecraft/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/minecraft/the_nether/data/minecraft/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/dimensions/minecraft/the_nether/data/minecraft/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World (2)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (2)/level.dat_old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/709bad544fd45cfb6cccd65226d7b8201a15268a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/b040535f9463c6fbf7dbd1b8ea49df5288fa64ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/backrooms26_3/blockstates/ceiling_tile.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/backrooms26_3/blockstates/moist_carpet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/backrooms26_3/blockstates/yellow_wallpaper.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/backrooms26_3/items/ceiling_tile.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/backrooms26_3/items/moist_carpet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/backrooms26_3/items/yellow_wallpaper.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/backrooms26_3/lang/en_us.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/backrooms26_3/models/block/ceiling_tile.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/backrooms26_3/models/block/moist_carpet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/backrooms26_3/models/block/yellow_wallpaper.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_00.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_00.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_01.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_01.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_02.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_02.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_03.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_03.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_04.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_04.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_05.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_05.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_06.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_06.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_07.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_07.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_08.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_08.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_09.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_09.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_10.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_10.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_100.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_100.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_101.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_101.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_102.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_102.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_103.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_103.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_104.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_104.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_105.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_105.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_106.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_106.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_107.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_107.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_108.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_108.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_109.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_109.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_11.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_11.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_110.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_110.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_111.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_111.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_112.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_112.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_113.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_113.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_114.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_114.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_115.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_115.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_116.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_116.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_117.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_117.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_118.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_118.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_119.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_119.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_12.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_12.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_120.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_120.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_121.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_121.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_122.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_122.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_123.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_123.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_124.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_124.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_125.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_125.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_126.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_126.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_127.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_127.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_13.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_13.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_14.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_14.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_15.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_15.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_16.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_16.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_17.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_17.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_18.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_18.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_19.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_19.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_20.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_20.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_21.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_21.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_22.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_22.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_23.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_23.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_24.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_24.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_25.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_25.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_26.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_26.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_27.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_27.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_28.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_28.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_29.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_29.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_30.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_30.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_31.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_31.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_32.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_32.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_33.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_33.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_34.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_34.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_35.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_35.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_36.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_36.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_37.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_37.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_38.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_38.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_39.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_39.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_40.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_40.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_41.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_41.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_42.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_42.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_43.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_43.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_44.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_44.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_45.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_45.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_46.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_46.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_47.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_47.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_48.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_48.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_49.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_49.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_50.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_50.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_51.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_51.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_52.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_52.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_53.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_53.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_54.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_54.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_55.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_55.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_56.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_56.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_57.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_57.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_58.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_58.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_59.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_59.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_60.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_60.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_61.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_61.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_62.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_62.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_63.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_63.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_64.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_64.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_65.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_65.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_66.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_66.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_67.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_67.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_68.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_68.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_69.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_69.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_70.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_70.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_71.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_71.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_72.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_72.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_73.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_73.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_74.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_74.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_75.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_75.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_76.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_76.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_77.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_77.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_78.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_78.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_79.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_79.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_80.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_80.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_81.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_81.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_82.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_82.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_83.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_83.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_84.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_84.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_85.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_85.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_86.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_86.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_87.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_87.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_88.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_88.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_89.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_89.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_90.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_90.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_91.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_91.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_92.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_92.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_93.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_93.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_94.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_94.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_95.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_95.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_96.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_96.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_97.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_97.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_98.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_98.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_99.nbt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/backrooms26_3/structure/level_0/cell_99.nbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/generate_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/generate_templates.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +376,7 @@
     &quot;Gradle.Data Generation.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Minecraft Client.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.generate_templates.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
@@ -132,11 +384,24 @@
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tyron/IdeaProjects/Backrooms26.3&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15384616&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.Minecraft Client">
+  <component name="PyDebuggerOptionsProvider">
+    <option name="myDebuggerBackend" value="DEBUGPY" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tyron\IdeaProjects\Backrooms26.3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.generate_templates">
     <configuration name="Build" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" value="Build" />
@@ -162,6 +427,36 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
+    <configuration name="generate_templates" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="backrooms26_3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="~\IdeaProjects\Backrooms26.3\.venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/generate_templates.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.generate_templates" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -188,5 +483,9 @@
     <MESSAGE value="Me, Me, Me, MEEEOOOOOWWWWWWWWWW MROIWOWOWOWOOWOW MEEEOWOWOOWW" />
     <MESSAGE value="Fixed Big Rooms I think" />
     <option name="LAST_COMMIT_MESSAGE" value="Fixed Big Rooms I think" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
