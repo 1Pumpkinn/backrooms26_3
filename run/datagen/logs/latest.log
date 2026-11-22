@@ -1,6 +1,6 @@
-[21:15:25] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 26.3 with Fabric Loader 0.20.1
-[21:15:25] [main/INFO] (FabricLoader/Mappings) Mappings not present!
-[21:15:25] [main/INFO] (FabricLoader) Loading 52 mods:
+[19:57:10] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 26.3 with Fabric Loader 0.20.1
+[19:57:10] [main/INFO] (FabricLoader/Mappings) Mappings not present!
+[19:57:11] [main/INFO] (FabricLoader) Loading 52 mods:
 	- backrooms26_3 1.0.0
 	- fabric-advancement-api-v1 1.0.1+38c7a2d55d
 	- fabric-api 0.166.2+26.3
@@ -53,14 +53,14 @@
 	- java 25
 	- minecraft 26.3
 	- mixinextras 0.5.5
-[21:15:25] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/tyron/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.17.5+mixin.0.8.7/cef8519a91129d0c21fa03bb9378f0e8ca810e5/sponge-mixin-0.17.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[21:15:26] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
-[21:15:27] [Datafixer Bootstrap #0/INFO] (Minecraft) 307 Datafixer optimizations took 321 milliseconds
-[21:15:32] [Render thread/INFO] (Minecraft) Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
-[21:15:32] [Render thread/INFO] (Minecraft) Setting user: Player489
-[21:15:33] [Render thread/INFO] (backrooms26_3) You are not supposed to be here.
-[21:15:33] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[21:15:33] [Download-2/ERROR] (Minecraft) Failed to fetch user properties
+[19:57:11] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/tyron/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.17.5+mixin.0.8.7/cef8519a91129d0c21fa03bb9378f0e8ca810e5/sponge-mixin-0.17.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[19:57:12] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[19:57:13] [Datafixer Bootstrap #0/INFO] (Minecraft) 307 Datafixer optimizations took 363 milliseconds
+[19:57:20] [Render thread/INFO] (Minecraft) Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[19:57:20] [Render thread/INFO] (Minecraft) Setting user: Player279
+[19:57:20] [Render thread/INFO] (backrooms26_3) You are not supposed to be here.
+[19:57:20] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[19:57:20] [Download-2/ERROR] (Minecraft) Failed to fetch user properties
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at knot//com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:70)
 	at knot//com.mojang.authlib.services.MinecraftServicesUserApiService.fetchProperties(MinecraftServicesUserApiService.java:168)
@@ -76,10 +76,10 @@ Caused by: MinecraftClientHttpException[type=HTTP_ERROR, status=401, response=Er
 	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:65)
 	at knot//com.mojang.authlib.services.MinecraftServicesUserApiService.fetchProperties(MinecraftServicesUserApiService.java:118)
 	... 5 more
-[21:15:33] [Render thread/INFO] (FabricDataGenHelper) Running data generator for backrooms26_3
-[21:15:33] [Render thread/INFO] (Minecraft) Starting provider: Backrooms26.3/Model Definitions
-[21:15:33] [Render thread/INFO] (Minecraft) Backrooms26.3/Model Definitions finished after 62 ms
-[21:15:33] [Render thread/INFO] (Minecraft) Starting provider: Backrooms26.3/Language (en_us)
-[21:15:33] [Render thread/INFO] (Minecraft) Backrooms26.3/Language (en_us) finished after 500 ms
-[21:15:33] [Render thread/INFO] (Minecraft) All providers took: 563 ms
-[21:15:33] [Render thread/INFO] (Minecraft) Caching: total files: 10, old count: 0, new count: 10, removed stale: 0, written: 10
+[19:57:20] [Render thread/INFO] (FabricDataGenHelper) Running data generator for backrooms26_3
+[19:57:20] [Render thread/INFO] (Minecraft) Starting provider: Backrooms26.3/Model Definitions
+[19:57:20] [Render thread/INFO] (Minecraft) Backrooms26.3/Model Definitions finished after 70 ms
+[19:57:20] [Render thread/INFO] (Minecraft) Starting provider: Backrooms26.3/Language (en_us)
+[19:57:21] [Render thread/INFO] (Minecraft) Backrooms26.3/Language (en_us) finished after 576 ms
+[19:57:21] [Render thread/INFO] (Minecraft) All providers took: 647 ms
+[19:57:21] [Render thread/INFO] (Minecraft) Caching: total files: 10, old count: 0, new count: 10, removed stale: 0, written: 10
