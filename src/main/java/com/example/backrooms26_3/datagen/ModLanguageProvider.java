@@ -25,8 +25,12 @@ public class ModLanguageProvider extends FabricLanguageProvider {
 
 		translationBuilder.add(ModItemGroups.BACKROOMS, "Backrooms");
 
+		translationBuilder.add("generator.backrooms26_3.all_rooms", "Backrooms: All Rooms");
+
 		translationBuilder.add("message.backrooms26_3.entered", "You noclipped out of reality.");
 		translationBuilder.add("message.backrooms26_3.left", "You found your way back.");
+		translationBuilder.add("message.backrooms26_3.gallery_built", "Built the room gallery (%s rooms).");
+		translationBuilder.add("message.backrooms26_3.not_gallery", "This is not a Backrooms: All Rooms world.");
 		translationBuilder.add("message.backrooms26_3.dimension_missing", "The Backrooms dimension is not loaded.");
 	}
 }

@@ -2,6 +2,7 @@ package com.example.backrooms26_3.command;
 
 import com.example.backrooms26_3.world.BackroomsDimensions;
 import com.example.backrooms26_3.world.BackroomsSpawn;
+import com.example.backrooms26_3.world.RoomGallery;
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 
@@ -21,7 +22,8 @@ public class ModCommands {
 		CommandRegistrationCallback.EVENT.register((dispatcher, buildContext, selection) ->
 				dispatcher.register(Commands.literal("backrooms")
 						.then(Commands.literal("enter").executes(ModCommands::enter))
-						.then(Commands.literal("leave").executes(ModCommands::leave))));
+						.then(Commands.literal("leave").executes(ModCommands::leave))
+						.then(Commands.literal("gallery").executes(ModCommands::gallery))));
 	}
 
 	private static int enter(CommandContext<CommandSourceStack> context) throws CommandSyntaxException {
@@ -50,5 +52,18 @@ public class ModCommands {
 		player.teleport(new TeleportTransition(overworld, target, Vec3.ZERO, player.getYRot(), player.getXRot(), TeleportTransition.DO_NOTHING));
 		source.sendSuccess(() -> Component.translatable("message.backrooms26_3.left"), false);
 		return 1;
+	}
+
+	private static int gallery(CommandContext<CommandSourceStack> context) {
+		CommandSourceStack source = context.getSource();
+		ServerLevel level = source.getLevel();
+		if (!RoomGallery.isGallery(level)) {
+			source.sendFailure(Component.translatable("message.backrooms26_3.not_gallery"));
+			return 0;
+		}
+
+		int placed = RoomGallery.build(level);
+		source.sendSuccess(() -> Component.translatable("message.backrooms26_3.gallery_built", placed), true);
+		return placed;
 	}
 }
