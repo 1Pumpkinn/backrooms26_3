@@ -1,0 +1,19 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:stripped_birch_wood": 2
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 82402,
+      "minecraft:time_since_rest": 10174,
+      "minecraft:walk_one_cm": 23615,
+      "minecraft:total_world_time": 13406,
+      "minecraft:fly_one_cm": 345990,
+      "minecraft:sneak_time": 175,
+      "minecraft:play_time": 10174,
+      "minecraft:jump": 178,
+      "minecraft:time_since_death": 10174
+    }
+  },
+  "DataVersion": 5023
+}
