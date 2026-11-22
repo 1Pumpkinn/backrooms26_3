@@ -46,7 +46,7 @@ POOL_DIR = os.path.join(ROOT, "worldgen", "template_pool", "level_0")
 N = 17
 LAST = N - 1
 SIZE = (N, 5, N)
-WALL_HEIGHT = ensurepip
+WALL_HEIGHT = 4
 DOOR_HEIGHT = 3
 VARIANTS = 128
 
