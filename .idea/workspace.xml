@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f66243fd-5519-4bbf-bed0-a74764c6a423" name="Changes" comment="Fix WALL_HEIGHT typo in generate_templates.py">
-      <change beforePath="$PROJECT_DIR$/tools/generate_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/generate_templates.py" afterDir="false" />
-    </list>
+    <list default="true" id="f66243fd-5519-4bbf-bed0-a74764c6a423" name="Changes" comment="all Backroom rooms world type" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,7 +190,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Me, Me, Me, MEEEOOOOOWWWWWWWWWW MROIWOWOWOWOOWOW MEEEOWOWOOWW" />
     <MESSAGE value="Fixed Big Rooms I think" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Big Rooms I think" />
+    <MESSAGE value="all Backroom rooms world type" />
+    <option name="LAST_COMMIT_MESSAGE" value="all Backroom rooms world type" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
