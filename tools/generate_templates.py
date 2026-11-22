@@ -200,6 +200,38 @@ def add_fill(walls, rooms, rng):
     return walls
 
 
+def prune_lintels(walls, lintels):
+    """Drops lintels that do not bridge two walls, so no block floats beside a gap.
+
+    A lintel run (a straight line of lintels) is only kept when both of its ends sit on a full
+    wall or on the outer wall. Anything else would hang off a single wall end, so it is removed
+    and the gap simply stays open, leaving a plain pillar or wall end instead.
+    """
+    def is_wall(x, z):
+        return x in (0, LAST) or z in (0, LAST) or (x, z) in walls
+
+    def bridged(x, z, dx, dz, kept):
+        ax, az = x, z
+        while (ax, az) in kept:
+            ax += dx
+            az += dz
+        bx, bz = x, z
+        while (bx, bz) in kept:
+            bx -= dx
+            bz -= dz
+        return is_wall(ax, az) and is_wall(bx, bz)
+
+    kept = set(lintels)
+    changed = True
+    while changed:
+        changed = False
+        for (x, z) in sorted(kept):
+            if not (bridged(x, z, 1, 0, kept) or bridged(x, z, 0, 1, kept)):
+                kept.discard((x, z))
+                changed = True
+    return kept
+
+
 def build_room(rng):
     for _ in range(200):
         walls, lintels, rooms, open_doors = build_layout(rng)
@@ -208,6 +240,7 @@ def build_room(rng):
     else:
         raise RuntimeError("could not build a connected layout")
     walls = add_fill(walls, rooms, rng)
+    lintels = prune_lintels(walls, lintels)
 
     blocks = {}
 
