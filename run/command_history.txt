@@ -44,3 +44,7 @@
 /gamemode survival
 /give Player93 minecraft:netherite_pickaxe
 /enchant Player93 minecraft:efficiency 5
+/backrooms gallery
+/backrooms enter
+/gamemode spectator
+/backrooms enter

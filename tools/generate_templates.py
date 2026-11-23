@@ -57,6 +57,18 @@ DOOR_OPEN_CHANCE = 0.85
 MIN_ROOM = 3
 MAX_ROOM = 5  # rooms wider than this are split whenever they can be, so big rooms stay rare
 SPLIT_AFTER_SMALL = 0.35
+
+# Big open halls: a region at least HALL_MIN across both ways can be kept whole instead of being split.
+# They get a grid of pillars, extended wall stubs and free standing walls (see fill_hall).
+HALL_MIN = 9
+HALL_CHANCE_TOP = 0.03  # a whole 15 x 15 cell as one hall
+HALL_CHANCE_SUB = 0.12  # a 9+ wide region left over after a split
+HALL_SPLIT = 0.05       # chance a big region is split so one side stays big enough to become a hall
+OPEN_CLEAR = 2          # open space pass: a spot with this many free blocks around it (2 = a 5 x 5 clear square) is "big"
+OPEN_WALL = 0.3         # chance such a spot gets a free standing wall; otherwise it may get a pillar
+OPEN_PILLAR = 0.8
+OPEN_SPACING = 3        # pillars and walls added by the open space pass keep this far apart
+PILLAR_SKIP = 0.08      # chance a pillar of the grid is left out so the grid is not perfectly regular
 GAP_WIDTH = 3  # shortened to 2 on walls shorter than 6 blocks
 GAP_LINTEL_CHANCE = 0.7
 
@@ -97,26 +109,37 @@ def connected(free):
 
 
 def build_layout(rng):
-    """Returns (walls, lintels, rooms, open_doors).
+    """Returns (walls, lintels, rooms, halls, reserved, open_doors).
 
     walls    cells that are solid for the full wall height
     lintels  cells that only have the top block of the wall (doorway gaps)
     rooms    list of (x0, x1, z0, z1) leaf rooms, used to place pillars
+    halls    the subset of rooms that were kept whole as big open halls
+    reserved cells in front of open doorways that fill (pillars, walls) must leave free
     open_doors  list of (side, slot index) left open on the outer wall
     """
     walls = set()
     lintels = set()
     rooms = []
+    halls = []
 
-    def pick_split(lo, hi):
+    def pick_split(lo, hi, other):
+        # Sometimes cut a narrow room off one side so the other side stays big enough to be a hall.
+        if hi - lo + 1 >= 14 and other >= HALL_MIN and rng.random() < HALL_SPLIT:
+            small = rng.randint(MIN_ROOM, MAX_ROOM)
+            return lo + small if rng.random() < 0.5 else hi - small
         # Prefer a wall position that leaves both halves no bigger than MAX_ROOM, so big rooms stay rare.
         options = list(range(lo + MIN_ROOM, hi - MIN_ROOM + 1))
         good = [a for a in options if a - lo <= MAX_ROOM and hi - a <= MAX_ROOM]
         return rng.choice(good or options)
 
-    def divide(x0, x1, z0, z1):
+    def divide(x0, x1, z0, z1, top=False):
         w = x1 - x0 + 1
         h = z1 - z0 + 1
+        if w >= HALL_MIN and h >= HALL_MIN and rng.random() < (HALL_CHANCE_TOP if top else HALL_CHANCE_SUB):
+            rooms.append((x0, x1, z0, z1))
+            halls.append((x0, x1, z0, z1))
+            return
         can_x = w >= 2 * MIN_ROOM + 1
         can_z = h >= 2 * MIN_ROOM + 1
         small = w <= MAX_ROOM and h <= MAX_ROOM
@@ -130,7 +153,7 @@ def build_layout(rng):
         gap_lintel = rng.random() < GAP_LINTEL_CHANCE
         gap_w = GAP_WIDTH if (h if vertical else w) >= 6 else GAP_WIDTH - 1
         if vertical:
-            at = pick_split(x0, x1)
+            at = pick_split(x0, x1, h)
             gap = rng.randint(z0, z1 - gap_w + 1)
             for z in range(z0, z1 + 1):
                 if gap <= z < gap + gap_w:
@@ -141,7 +164,7 @@ def build_layout(rng):
             divide(x0, at - 1, z0, z1)
             divide(at + 1, x1, z0, z1)
         else:
-            at = pick_split(z0, z1)
+            at = pick_split(z0, z1, w)
             gap = rng.randint(x0, x1 - gap_w + 1)
             for x in range(x0, x1 + 1):
                 if gap <= x < gap + gap_w:
@@ -152,39 +175,132 @@ def build_layout(rng):
             divide(x0, x1, z0, at - 1)
             divide(x0, x1, at + 1, z1)
 
-    divide(1, LAST - 1, 1, LAST - 1)
+    divide(1, LAST - 1, 1, LAST - 1, top=True)
 
     open_doors = [(side, i) for side in "wnes" for i in range(len(DOOR_SLOTS)) if rng.random() < DOOR_OPEN_CHANCE]
 
     # Keep a small pocket free in front of every open doorway so no inner wall blocks it.
+    reserved = set()
     for side, i in open_doors:
         for along in DOOR_SLOTS[i]:
-            for depth in (1,):
+            for depth in (1, 2, 3):
                 cell = {"w": (depth, along), "e": (LAST - depth, along),
                         "n": (along, depth), "s": (along, LAST - depth)}[side]
-                walls.discard(cell)
-                lintels.discard(cell)
+                reserved.add(cell)
+                if depth == 1:
+                    walls.discard(cell)
+                    lintels.discard(cell)
 
-    return walls, lintels, rooms, open_doors
+    return walls, lintels, rooms, halls, reserved, open_doors
 
 
 def free_cells(walls):
     return {(x, z) for x in range(1, LAST) for z in range(1, LAST) if (x, z) not in walls}
 
 
-def add_fill(walls, rooms, rng):
-    """Puts pillars and short stub walls into the bigger rooms so none of them is an empty box."""
-    def try_add(cells, walls):
-        if cells & walls:
+def add_fill(walls, lintels, rooms, halls, reserved, rng):
+    """Puts pillars, stub walls and free standing walls into the bigger rooms so none is an empty box."""
+    def inside(x, z):
+        return 1 <= x < LAST and 1 <= z < LAST
+
+    def try_add(cells, walls, margin=0, skip=(), ignore=frozenset()):
+        """Adds cells as wall when they fit: inside the cell, off the doorway pockets, still connected.
+
+        With a margin, no other wall (the outer wall included) may sit within that many blocks of the new
+        cells, so the passages around them stay wide enough to walk. skip lists cells that are exempt from
+        that check (the root of a stub, which touches the wall it grows from). ignore lists wall cells that do
+        not count as crowding (the other pillars of the same grid).
+        """
+        if cells & walls or cells & reserved or any(not inside(x, z) for x, z in cells):
             return walls
-        if any(not (1 <= x < LAST and 1 <= z < LAST) for x, z in cells):
-            return walls
+        if margin:
+            for (x, z) in cells - set(skip):
+                for dx in range(-margin, margin + 1):
+                    for dz in range(-margin, margin + 1):
+                        n = (x + dx, z + dz)
+                        if n not in cells and n not in ignore and (n in walls or not inside(*n)):
+                            return walls
         trial = walls | cells
         return trial if connected(free_cells(trial)) else walls
 
-    for (x0, x1, z0, z1) in rooms:
+    def fill_hall(walls, x0, x1, z0, z1):
         w = x1 - x0 + 1
         h = z1 - z0 + 1
+        style = rng.choice(["grid", "grid", "scatter", "mixed"])
+
+        # Pillar grid, centred in the hall. Every hall gets one; it goes in first so stubs and walls fit around it.
+        pitch = rng.choice([4, 5])
+        size = 1 if rng.random() < 0.6 else 2
+
+        def positions(lo, hi):
+            first, out = lo + 2, []
+            while first + size - 1 <= hi - 2:
+                out.append(first)
+                first += pitch
+            if out:
+                shift = ((hi - 2) - (out[-1] + size - 1)) // 2
+                out = [p + shift for p in out]
+            return out
+
+        grid = set()
+        for px in positions(x0, x1):
+            for pz in positions(z0, z1):
+                if rng.random() < PILLAR_SKIP:
+                    continue
+                cells = {(px + dx, pz + dz) for dx in range(size) for dz in range(size)}
+                placed = try_add(cells, walls, 2, ignore=grid)
+                if placed is not walls:
+                    walls = placed
+                    grid |= cells
+
+        # Extended walls: stubs growing out of the hall's own walls into the open space.
+        for side in "wnes":
+            if rng.random() > 0.55:
+                continue
+            length = rng.randint(2, 5)
+            if side in "we":
+                z = rng.randint(z0 + 3, z1 - 3)
+                xs = range(x0, x0 + length) if side == "w" else range(x1 - length + 1, x1 + 1)
+                order = list(xs) if side == "w" else list(reversed(list(xs)))
+                walls = try_add({(x, z) for x in xs}, walls, 2, {(x, z) for x in order[:2]})
+            else:
+                x = rng.randint(x0 + 3, x1 - 3)
+                zs = range(z0, z0 + length) if side == "n" else range(z1 - length + 1, z1 + 1)
+                order = list(zs) if side == "n" else list(reversed(list(zs)))
+                walls = try_add({(x, z) for z in zs}, walls, 2, {(x, z) for z in order[:2]})
+
+        # Random walls: free standing segments, sometimes with a short arm so they read as an L.
+        if style in ("scatter", "mixed"):
+            for _ in range(rng.randint(1, 3)):
+                for _attempt in range(12):
+                    length = rng.randint(3, 7)
+                    horizontal = rng.random() < 0.5
+                    if horizontal:
+                        x = rng.randint(x0 + 2, max(x0 + 2, x1 - 2 - length + 1))
+                        z = rng.randint(z0 + 2, z1 - 2)
+                        cells = {(x + i, z) for i in range(length)}
+                        arm = {(x, z + j) for j in range(1, rng.randint(2, 3) + 1)} if rng.random() < 0.3 else set()
+                    else:
+                        x = rng.randint(x0 + 2, x1 - 2)
+                        z = rng.randint(z0 + 2, max(z0 + 2, z1 - 2 - length + 1))
+                        cells = {(x, z + i) for i in range(length)}
+                        arm = {(x + j, z) for j in range(1, rng.randint(2, 3) + 1)} if rng.random() < 0.3 else set()
+                    if any(not (x0 + 2 <= cx <= x1 - 2 and z0 + 2 <= cz <= z1 - 2) for cx, cz in cells | arm):
+                        continue
+                    placed = try_add(cells | arm, walls, 2)
+                    if placed is not walls:
+                        walls = placed
+                        break
+
+        return walls
+
+    for room in rooms:
+        x0, x1, z0, z1 = room
+        w = x1 - x0 + 1
+        h = z1 - z0 + 1
+        if room in halls:
+            walls = fill_hall(walls, x0, x1, z0, z1)
+            continue
         if w < 6 or h < 6:
             continue
         if rng.random() < 0.65:
@@ -203,6 +319,38 @@ def add_fill(walls, rooms, rng):
                 z = rng.randint(z0 + 1, z1 - 1)
                 xs = range(x0, x0 + length) if rng.random() < 0.5 else range(x1 - length + 1, x1 + 1)
                 walls = try_add({(x, z) for x in xs}, walls)
+
+    # Open space pass. Big empty areas also appear where rooms are joined by wide gaps, whatever room they
+    # came from, so look at the actual free space: anywhere with a clear OPEN_CLEAR radius gets a pillar or
+    # a free standing wall, keeping them OPEN_SPACING apart so they read as a loose grid.
+    obstacles = walls | lintels
+
+    def clear(x, z, r):
+        return all(inside(x + dx, z + dz) and (x + dx, z + dz) not in obstacles
+                   for dx in range(-r, r + 1) for dz in range(-r, r + 1))
+
+    spots = [(x, z) for x in range(1, LAST) for z in range(1, LAST) if clear(x, z, OPEN_CLEAR)]
+    rng.shuffle(spots)
+    added = []
+    for (x, z) in spots:
+        if not clear(x, z, OPEN_CLEAR) or any(max(abs(x - ax), abs(z - az)) < OPEN_SPACING + 1 for ax, az in added):
+            continue
+        if rng.random() < OPEN_WALL:
+            length = rng.choice([3, 4, 5])
+            if rng.random() < 0.5:
+                cells = {(x - length // 2 + i, z) for i in range(length)}
+            else:
+                cells = {(x, z - length // 2 + i) for i in range(length)}
+        elif rng.random() < OPEN_PILLAR:
+            size = 1 if rng.random() < 0.65 else 2
+            cells = {(x + dx, z + dz) for dx in range(size) for dz in range(size)}
+        else:
+            continue
+        placed = try_add(cells, obstacles, 2)
+        if placed is not obstacles:
+            obstacles = placed
+            walls = walls | cells
+            added.append((x, z))
     return walls
 
 
@@ -240,12 +388,12 @@ def prune_lintels(walls, lintels):
 
 def build_room(rng):
     for _ in range(200):
-        walls, lintels, rooms, open_doors = build_layout(rng)
+        walls, lintels, rooms, halls, reserved, open_doors = build_layout(rng)
         if connected(free_cells(walls)):
             break
     else:
         raise RuntimeError("could not build a connected layout")
-    walls = add_fill(walls, rooms, rng)
+    walls = add_fill(walls, lintels, rooms, halls, reserved, rng)
     lintels = prune_lintels(walls, lintels)
 
     blocks = {}
